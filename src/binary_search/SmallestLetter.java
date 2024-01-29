@@ -19,7 +19,7 @@ public class SmallestLetter {
             if (target<arr[mid]){ //In this problem don't do (target>arr[mid]), doesn't work
                 end=mid-1;
             }else {
-                start=mid+1;
+                start=mid+1; //for target>arr[mid] as well as target==arr[mid]
             }
         }
         return arr[start % arr.length];

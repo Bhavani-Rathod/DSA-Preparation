@@ -37,7 +37,7 @@ public class EvenDigitsInNum {
 
         int count = 0;
 
-        while (num>0){
+        while (num>0){ //method to remember for counting digits
             count++;
             num/=10;
         }
