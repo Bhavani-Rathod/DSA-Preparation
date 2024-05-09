@@ -41,9 +41,9 @@ public class FirstLastPosition {
             }else {
                 ans=mid;
                 if (findStartIndex){ //applying binary search again here
-                    end=mid-1;
+                    end=mid-1; //searches for the target on left sides of mid till 0th position
                 }else {
-                    start=mid+1;
+                    start=mid+1; //searches for the target on right sides of mid till last position
                 }
             }
         }

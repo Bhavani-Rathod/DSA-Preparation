@@ -70,7 +70,7 @@ public class RotatedBsDuplicate {
             if(nums[start]==nums[mid] && nums[end]==nums[mid]) {
                 //skip these duplicates
                 //before that check if the start and end are pivot
-                if (nums[start] > nums[start + 1]) {
+                if (nums[start] > nums[start + 1])  {
                     return start;
                 }
                 start++; //skips start and increments it if start is not pivot above

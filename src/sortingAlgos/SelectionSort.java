@@ -23,9 +23,9 @@ public class SelectionSort {
         }
     }
 
-    static int maxIndex(int[] arr, int start, int end){ //returning index of the element here(and not the element itself) bcz we want index for swapping, andnot the element itself
+    static int maxIndex(int[] arr, int start, int last){ //returning index of the element here(and not the element itself) bcz we want index for swapping, andnot the element itself
         int max = start;
-        for (int i=start;i<=end;i++){
+        for (int i=start;i<=last;i++){
             if(arr[max]<arr[i]){
                 max = i;
             }

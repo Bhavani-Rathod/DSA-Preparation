@@ -18,7 +18,7 @@ public class SearchIn2DArr {
         int r = 0;
         int c = arr.length-1;
 
-        while (r<arr.length && c>=0){ //as we incrementing rows, r should not exceed lenght and as we decrementing cols it shd not become -ve, it shd be >=0
+        while (r<arr.length && c>=0){ //as we are incrementing rows, r should not exceed length and as we are decrementing cols it shd not become -ve, it shd be >=0
             if (arr[r][c]==target){
                 return new int[]{r,c};
             }else if (arr[r][c]>target){
